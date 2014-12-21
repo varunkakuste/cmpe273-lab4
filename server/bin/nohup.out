@@ -1,0 +1,146 @@
+INFO  [2014-11-07 23:10:17,140] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2014-11-07 23:10:17,151] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-11-07 23:10:17,219] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2014-11-07 23:10:17,220] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-11-07 23:10:17,325] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-11-07 23:10:17,376] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2014-11-07 23:10:17,376] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-11-07 23:10:17,603] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3000
+INFO  [2014-11-07 23:10:17,610] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7000
+INFO  [2014-11-07 23:10:38,414] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2014-11-07 23:10:38,425] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-11-07 23:10:38,495] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2014-11-07 23:10:38,497] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-11-07 23:10:38,607] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-11-07 23:10:38,661] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2014-11-07 23:10:38,661] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-11-07 23:10:38,908] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3001
+INFO  [2014-11-07 23:10:38,916] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7001
+INFO  [2014-11-07 23:10:49,143] edu.sjsu.cmpe.cache.CacheService: Loaded resources
+WARN  [2014-11-07 23:10:49,155] com.yammer.dropwizard.config.ServerFactory: 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!    THIS SERVICE HAS NO HEALTHCHECKS. THIS MEANS YOU WILL NEVER KNOW IF IT    !
+!    DIES IN PRODUCTION, WHICH MEANS YOU WILL NEVER KNOW IF YOU'RE LETTING     !
+!     YOUR USERS DOWN. YOU SHOULD ADD A HEALTHCHECK FOR EACH DEPENDENCY OF     !
+!     YOUR SERVICE WHICH FULLY (BUT LIGHTLY) TESTS YOUR SERVICE'S ABILITY TO   !
+!      USE THAT SERVICE. THINK OF IT AS A CONTINUOUS INTEGRATION TEST.         !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+INFO  [2014-11-07 23:10:49,218] com.yammer.dropwizard.cli.ServerCommand: Starting cache-server
+INFO  [2014-11-07 23:10:49,219] org.eclipse.jetty.server.Server: jetty-8.y.z-SNAPSHOT
+INFO  [2014-11-07 23:10:49,331] com.sun.jersey.server.impl.application.WebApplicationImpl: Initiating Jersey application, version 'Jersey: 1.17.1 02/28/2013 12:47 PM'
+INFO  [2014-11-07 23:10:49,383] com.yammer.dropwizard.config.Environment: The following paths were found for the configured resources:
+
+    GET     /cache/ (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    GET     /cache/{key} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+    PUT     /cache/{key}/{value} (edu.sjsu.cmpe.cache.api.resources.CacheResource)
+
+INFO  [2014-11-07 23:10:49,383] com.yammer.dropwizard.config.Environment: tasks = 
+
+    POST    /tasks/gc (com.yammer.dropwizard.tasks.GarbageCollectionTask)
+
+INFO  [2014-11-07 23:10:49,618] org.eclipse.jetty.server.AbstractConnector: Started InstrumentedBlockingChannelConnector@0.0.0.0:3002
+INFO  [2014-11-07 23:10:49,627] org.eclipse.jetty.server.AbstractConnector: Started SocketConnector@0.0.0.0:7002
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:11 +0000] "GET / HTTP/1.1" 200 0 17 17
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:11 +0000] "GET /favicon.ico HTTP/1.1" 200 0 2 2
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:17 +0000] "GET / HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:27 +0000] "GET / HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:30 +0000] "GET / HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:33 +0000] "GET / HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:35 +0000] "GET / HTTP/1.1" 200 0 12 12
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:35 +0000] "GET /favicon.ico HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:38 +0000] "GET / HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:38 +0000] "GET / HTTP/1.1" 200 0 0 0
+127.0.0.1 - - [07/Nov/2014:23:11:39 +0000] "GET / HTTP/1.1" 200 0 11 11
+127.0.0.1 - - [07/Nov/2014:23:11:39 +0000] "GET /favicon.ico HTTP/1.1" 200 0 1 1
+127.0.0.1 - - [07/Nov/2014:23:11:41 +0000] "GET / HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:42 +0000] "GET / HTTP/1.1" 200 0 0 0
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:43 +0000] "GET / HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:11:46 +0000] "GET / HTTP/1.1" 200 0 1 1
+127.0.0.1 - - [07/Nov/2014:23:11:48 +0000] "GET / HTTP/1.1" 200 414 25 25
+127.0.0.1 - - [07/Nov/2014:23:11:49 +0000] "GET /favicon.ico HTTP/1.1" 404 1329 1 1
+127.0.0.1 - - [07/Nov/2014:23:11:52 +0000] "GET /healthcheck HTTP/1.1" 200 16 18 18
+127.0.0.1 - - [07/Nov/2014:23:11:55 +0000] "GET /metrics?pretty=true HTTP/1.1" 200 14673 162 162
+127.0.0.1 - - [07/Nov/2014:23:12:19 +0000] "GET / HTTP/1.1" 200 414 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:12:21 +0000] "GET / HTTP/1.1" 200 414 4 4
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:12:21 +0000] "GET /favicon.ico HTTP/1.1" 404 1329 2 2
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:12:24 +0000] "GET / HTTP/1.1" 200 414 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:12:26 +0000] "GET / HTTP/1.1" 200 414 4 4
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:12:26 +0000] "GET /favicon.ico HTTP/1.1" 404 1329 2 2
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:12:28 +0000] "GET / HTTP/1.1" 200 414 1 1
+127.0.0.1 - - [07/Nov/2014:23:28:23 +0000] "PUT /cache/1/foo HTTP/1.1" 200 0 103 103
+127.0.0.1 - - [07/Nov/2014:23:28:23 +0000] "GET /cache/1 HTTP/1.1" 200 68 127 127
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:30:53 +0000] "GET / HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:30:57 +0000] "GET /cache HTTP/1.1" 200 70 21 21
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:31:05 +0000] "GET /cache HTTP/1.1" 200 22 42 42
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:31:13 +0000] "GET /cache HTTP/1.1" 200 70 2 2
+0:0:0:0:0:0:0:1 - - [07/Nov/2014:23:31:13 +0000] "GET /cache HTTP/1.1" 200 70 2 2
+127.0.0.1 - - [08/Nov/2014:05:12:57 +0000] "PUT /cache/1/foo HTTP/1.1" 200 0 11 11
+127.0.0.1 - - [08/Nov/2014:05:12:57 +0000] "GET /cache/1 HTTP/1.1" 200 68 3 3
+127.0.0.1 - - [08/Nov/2014:05:13:34 +0000] "PUT /cache/1/foo HTTP/1.1" 200 0 2 2
+127.0.0.1 - - [08/Nov/2014:05:13:34 +0000] "GET /cache/1 HTTP/1.1" 200 68 1 1
+127.0.0.1 - - [08/Nov/2014:05:14:22 +0000] "PUT /cache/1/foo HTTP/1.1" 200 0 1 1
+127.0.0.1 - - [08/Nov/2014:05:14:22 +0000] "GET /cache/1 HTTP/1.1" 200 68 2 2
+127.0.0.1 - - [08/Nov/2014:05:28:45 +0000] "PUT /cache/1/One HTTP/1.1" 200 0 2 2
+127.0.0.1 - - [08/Nov/2014:05:28:45 +0000] "PUT /cache/2/Two HTTP/1.1" 200 0 2 2
+127.0.0.1 - - [08/Nov/2014:05:28:45 +0000] "PUT /cache/3/Three HTTP/1.1" 200 0 102 102
+127.0.0.1 - - [08/Nov/2014:05:28:45 +0000] "PUT /cache/4/Four HTTP/1.1" 200 0 1 1
+127.0.0.1 - - [08/Nov/2014:05:28:45 +0000] "PUT /cache/5/Five HTTP/1.1" 200 0 1 1
+127.0.0.1 - - [08/Nov/2014:05:28:45 +0000] "PUT /cache/6/Six HTTP/1.1" 200 0 136 136
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "PUT /cache/7/Seven HTTP/1.1" 200 0 1 1
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "PUT /cache/8/Eight HTTP/1.1" 200 0 1 1
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "PUT /cache/9/Nine HTTP/1.1" 200 0 1 1
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "PUT /cache/10/Ten HTTP/1.1" 200 0 1 1
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/1 HTTP/1.1" 200 68 1 1
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/2 HTTP/1.1" 200 69 1 1
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/3 HTTP/1.1" 200 71 124 124
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/4 HTTP/1.1" 200 70 3 3
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/5 HTTP/1.1" 200 70 4 4
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/6 HTTP/1.1" 200 69 125 125
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/7 HTTP/1.1" 200 71 2 2
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/8 HTTP/1.1" 200 71 2 2
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/9 HTTP/1.1" 200 70 3 3
+127.0.0.1 - - [08/Nov/2014:05:28:46 +0000] "GET /cache/10 HTTP/1.1" 200 69 2 2
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:05:29:40 +0000] "GET / HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:05:29:45 +0000] "GET /get HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:05:29:56 +0000] "GET /get HTTP/1.1" 200 0 1 1
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:05:29:57 +0000] "GET / HTTP/1.1" 200 0 0 0
+0:0:0:0:0:0:0:1 - - [08/Nov/2014:05:29:57 +0000] "GET /cache HTTP/1.1" 200 132 3 3
+127.0.0.1 - - [08/Nov/2014:05:30:19 +0000] "GET /cache HTTP/1.1" 200 103 4 4
+127.0.0.1 - - [08/Nov/2014:05:30:19 +0000] "GET /cache HTTP/1.1" 200 103 2 2
+127.0.0.1 - - [08/Nov/2014:05:30:30 +0000] "GET /cache HTTP/1.1" 200 87 20 20
